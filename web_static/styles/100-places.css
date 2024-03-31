@@ -1,0 +1,213 @@
+.places h1 {
+    font-size: 30px;
+    
+    }
+    
+    .places article {
+        position: relative;
+        text-align: center;
+        flex-wrap: wrap; 
+        width: 390px; 
+        margin:  20px ;
+        padding: 20px ;   
+        border: solid 1px;
+        border-color: #FF5A5F;
+        border-radius: 4px;
+        display: inline-block;
+        
+    }
+    
+    .places article h2 {
+    font-size: 30px;
+    display: inline-block;
+    text-align: center;
+    
+    }
+
+    .price_by_night {
+        min-width: 60px;
+        height: 60px;
+        font-size: 30px;
+        color: #ff5a5f;
+        border: 4px solid #ff5a5f;
+        border-radius: 50%;
+        padding: 5px;
+        position: absolute;
+        top: 15px; /* Align it to the top */
+        right: 20px; /* Align it to the right */
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    
+      }
+
+   
+      .place-price h2 {
+        position: relative; /* Position the place-price div absolutely */
+        top: -20px; /* Adjust this value as needed to position it correctly */
+        left: 0; /* Align it to the left */
+        width: 100%; /* Occupy the entire width of the article */
+        text-align: center; /* Center the text horizontally */
+    }
+      
+
+      
+      .place-price {
+        border: #FF5A5F;
+        border-bottom: solid #DdDDDD 1px;
+      }
+
+      .information {
+        height: 80px;
+        border-top: 1px solid #dddddd;
+        border-bottom: 1px solid #dddddd;
+        display: flex;
+        justify-content: center;
+      }
+      .max_guest,
+      .number_rooms,
+      .number_bathrooms {
+        width: 100px;
+      }
+
+      .max_guest {
+        display: list-item;
+        background: url("../images/icon_group.png") no-repeat;
+        margin-top: 6px;
+        background-position-x: center;
+      }
+
+      .number_rooms {
+        background: url("../images/icon_bed.png") no-repeat;
+        margin-top: 6px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-position-x: center;
+      }
+      .number_bathrooms {
+        background: url("../images/icon_bath.png") no-repeat;
+        margin-top: 6px;
+        background-position-x: center;
+      }
+      .max_guest p {
+        position: relative;
+        top: 35px;
+
+      }
+      .number_rooms p {
+        position: relative;
+        top: 35px;
+
+      }
+      .number_bathrooms p {
+        position: relative;
+        top: 35px;
+
+      }
+
+      .user {
+        display: flex;
+        gap: 10px;
+        margin-right: 10px;
+      }
+
+    .places .articles {
+
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .places .amenities {
+        margin-top:40px ;
+       
+
+      }
+      .places .amenities h2 {
+        font-size: 16px;
+        border-bottom: 1px solid #DDDDDD; /* Add the border-bottom style */
+        display:flex;
+        padding-bottom: 5px
+
+    }
+      .places .amenities ul {
+        position: relative;
+        list-style: none;
+        top : 0px;
+        left : -50px ;
+      
+        
+
+      }
+      .places .amenities li {
+        list-style-type: none;
+        display: flex ;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin: 0px 0px ;
+        
+      }
+
+      .places .amenities .tv {
+        background: url("../images/icon_tv.png") no-repeat ;
+        background-size:  100%;
+      }
+
+      .places .amenities .wifi {
+        background: url("../images/icon_wifi.png") no-repeat ;
+        background-size:  100%;
+
+        
+      }
+
+      .places .amenities .pets {
+        background: url("../images/icon_pets.png") no-repeat ;
+        background-size:  100%;
+
+        
+      }
+
+      .places .amenities div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8px;
+        margin-right: 10px;
+        width: 7%;
+      }
+
+      .places .reviews ul {
+        list-style: none;
+        position: relative;
+        list-style: none;
+        top : 0px;
+        left : -70px ;
+
+      }
+      .places .reviews {
+
+        margin-top: 40px;
+      }
+
+      .places .reviews h2 {
+        font-size: 16px;
+        border-bottom: 1px solid #DDDDDD; 
+        display:flex;
+        padding-bottom: 5px
+      }
+
+
+    .places .reviews p {
+        list-style: none;
+        font-size: 12px;
+        margin-right: 185px;
+        margin-top: 0;
+        
+    }
+
+    .places .reviews h3 {
+        margin-bottom: 5px;
+    }
